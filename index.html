@@ -1,89 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Year of Us - Anniversary Trivia</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Will You Be My Girlfriend?</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #ba8b68;
-            color: #31331f;
-            text-align: center;
-            padding: 25px;
-        }
-
-        h1 {
-            font-size: 1.60em;
-            color: #31331f;
-        }
-
-        h2 {
-            font-size: 1.10em;
-            color: #31331f;
-        }
-
-        .tarot-card {
-            width: 300px;
-            margin: 10px auto;
-            border: 2px solid #645d3b;
-            border-radius: 10px;
-            background-color: #d9bba8;
-            padding: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            display: inline-block;
-        }
-
-        img {
-            width: 100%;
-            border-radius: 10px;
-        }
-
-        .button {
-            background-color: #d5cdbc;
-            color: #645d3b;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 1.2em;
-            margin: 10px;
-        }
-
-        .button:hover {
-            background-color: #d9bba8;
-        }
-
-        .heart {
-            color: #d9534f;
-            font-size: 2em;
-        }
-
-        .ball {
-            font-size: 2em;
-        }
-    </style>
-</head>
-
-<body>
-    <h1>A Reading For</h1>
-    <h1>💖 Megan 💖</h1>
-    <div class="tarot-card">
-        <img src="lvrs_tarot.png" alt="The Lovers Card">
-        <h2>The Lovers</h2>
-        <p>In the spirit of love and connection, I pull this card for you...</p>
-        <p>It signifies a beautiful bond that could blossom.</p>
-    </div>
-    <p>So, what do the cards say?</p>
-    <div class="ball">🔮</div>
-    <div class="ball">🔮🔮</div>
-    <div class="ball">🔮🔮🔮</div>
-    <div class="ball">🔮🔮🔮🔮</div>
-    <h2>✨ Will you be my girlfriend? ✨</h2>
-    <button class="button" onclick="alert('Good. Now give me a kiss 💋')">Yes! ❤️</button>
-    <button class="button" onclick="alert('😡😡😡😡')">No</button>
-    <!---->
-</body>
-
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
