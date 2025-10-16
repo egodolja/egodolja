@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/egodolja.github.io",
+  base: "/egodolja",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
